@@ -14,3 +14,4 @@ def get_protein_features(geneName, uniprotId):
     response = requests.get(url)
     response.raise_for_status()
     return pd.read_csv(response.text, sep='\t')
+

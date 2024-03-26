@@ -7,7 +7,7 @@
 First, ensure that you have Python and pip installed on your system. Then, clone this repository to your local machine and navigate into the cloned directory:
 
 ```
-git clone https://broadinstitute/g2p3d.git
+git clone https://github.com/broadinstitute/g2p3d.git
 cd g2p3d
 ```
 
@@ -29,13 +29,13 @@ You can import `g2p3d` in your Python scripts to retrieve data from the G2P API 
 ```python
 import g2p3d
 
-# Get gene transcript map
+# Get gene transcript map as a pandas dataframe
 transcript_map = g2p3d.get_gene_transcript_map('BRCA1', 'P38398')
-print(transcript_map)
+print(transcript_map.head())
 
-# Get protein features
+# Get protein features as a pandas dataframe
 protein_features = g2p3d.get_protein_features('BRCA1', 'P38398')
-print(protein_features)
+print(protein_features.head())
 
 ```
 

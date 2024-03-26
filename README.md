@@ -7,7 +7,7 @@
 First, ensure that you have Python and pip installed on your system. Then, clone this repository to your local machine and navigate into the cloned directory:
 
 ```
-git clone https://your-repository-url/g2p3d.git
+git clone https://broadinstitute/g2p3d.git
 cd g2p3d
 ```
 

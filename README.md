@@ -58,7 +58,7 @@ protein_features = g2p3d.get_protein_features('BRCA1', 'P38398')
 protein_features.fillna('-', inplace=True)
 print(protein_features[[
     'residueId', 'AA',
-    'AlphaFold confidence (pLDDT) ()', 
+    'AlphaFold confidence (pLDDT)', 
     'Active site (UniProt)'
 ]].head())
 
@@ -67,7 +67,7 @@ print(protein_features[[
 Output:
 
 ```
-   residueId AA  AlphaFold confidence (pLDDT) () Active site (UniProt)
+   residueId AA  AlphaFold confidence (pLDDT) Active site (UniProt)
 0          1  M                            41.59                     -
 1          2  D                            45.81                     -
 2          3  L                            48.11                     -

@@ -1,1 +1,1 @@
-from .api import get_gene_transcript_map, get_protein_features
+from .api import get_gene_transcript_protein_isoform_structure, get_protein_features

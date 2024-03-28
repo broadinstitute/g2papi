@@ -82,7 +82,7 @@ g2papi can also be used as a command-line tool to retrieve information directly 
 Getting Gene-Transcript-Protein Isoform-Structure Map with the G2P3D API
 
 ```
-g2papi get-gene-transcript-protein-isoform-structure --geneName BRCA1 --uniprotId P38398
+g2papi get-gene-transcript-protein-isoform-structure-map --geneName BRCA1 --uniprotId P38398
 ```
 
 Getting Protein Features
@@ -94,7 +94,7 @@ g2papi get-protein-features --geneName BRCA1 --uniprotId P38398
 The above commands will print the results to your terminal. If you wish to save the output to a file, you can redirect the output:
 
 ```
-g2papi get-gene-transcript-protein-isoform-structure --geneName BRCA1 --uniprotId P38398 > transcript_map.tsv
+g2papi get-gene-transcript-protein-isoform-structure-map --geneName BRCA1 --uniprotId P38398 > transcript_map.tsv
 g2papi get-protein-features --geneName BRCA1 --uniprotId P38398 > protein_features.tsv
 ```
 

@@ -4,8 +4,8 @@ from io import StringIO
 
 BASE_URL = "https://g2p.broadinstitute.org/api/gene/{}/protein/{}/{}"
 
-def get_gene_transcript_map(geneName, uniprotId):
-    url = BASE_URL.format(geneName, uniprotId, "gene-transcript-map")
+def get_gene_transcript_protein_isoform_structure(geneName, uniprotId):
+    url = BASE_URL.format(geneName, uniprotId, "gene-transcript-protein-isoform-structure-map")
     response = requests.get(url)
     response.raise_for_status()  # Raise an error for bad responses
     

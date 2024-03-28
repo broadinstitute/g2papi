@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='g2p3d',
+    name='g2papi',
     version='1.0.0',
     author='Jordan Safer',
     author_email='genomics2proteins@gmail.com',
@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'g2p3d=g2p3d.cli:main',
+            'g2papi=g2papi.cli:main',
         ],
     },
 )

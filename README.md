@@ -1,39 +1,39 @@
-# g2p3d
+# g2papi
 
-`g2p3d` is a Python library and command-line tool designed to interact with the G2P API provided by the Broad Institute. It allows users to retrieve mappings between protein isoforms, transcripts, and PDB structures for a gene, as well as protein feature tables for a gene.
+`g2papi` is a Python library and command-line tool designed to interact with the G2P API provided by the Broad Institute. It allows users to retrieve mappings between protein isoforms, transcripts, and PDB structures for a gene, as well as protein feature tables for a gene.
 
 ## Installation
 
 First, ensure that you have Python and pip installed on your system. Then, clone this repository to your local machine and navigate into the cloned directory:
 
 ```
-git clone https://github.com/broadinstitute/g2p3d.git
-cd g2p3d
+git clone https://github.com/broadinstitute/g2papi.git
+cd g2papi
 ```
 
-To install `g2p3d`, run:
+To install `g2papi`, run:
 
 ```
 pip install .
 ```
 
 
-This will install the `g2p3d` package and its dependencies.
+This will install the `g2papi` package and its dependencies.
 
 ## Usage
 
 ### As a Python Library
 
-You can import `g2p3d` in your Python scripts to retrieve data from the G2P API directly. Here are some examples:
+You can import `g2papi` in your Python scripts to retrieve data from the G2P API directly. Here are some examples:
 
 Getting Gene Transcript Map
 
 ```python
-import g2p3d
+import g2papi
 
-# Get gene transcript map as a pandas dataframe
-transcript_map = g2p3d.get_gene_transcript_map('BRCA1', 'P38398')
-print(transcript_map[['UniProt Isoform','Ensembl Transcript Id', 'RefSeq mRNA Id']].head())
+# Get gene-transcript-protein isoform-protein structure map as a pandas dataframe
+gene_transcript_protein_isoform_struct = g2papi.get_gene_transcript_protein_isoform_structure('BRCA1', 'P38398')
+print(gene_transcript_protein_isoform_struct[['UniProt Isoform','Ensembl Transcript Id', 'RefSeq mRNA Id']].head())
 
 ```
 
@@ -51,10 +51,10 @@ Output:
 Getting Protein Features
 
 ```python
-import g2p3d
+import g2papi
 
 # Get protein features as a pandas dataframe
-protein_features = g2p3d.get_protein_features('BRCA1', 'P38398')
+protein_features = g2papi.get_protein_features('BRCA1', 'P38398')
 protein_features.fillna('-', inplace=True)
 print(protein_features[[
     'residueId', 'AA',
@@ -77,24 +77,24 @@ Output:
 
 
 ### As a Command-Line Tool
-g2p3d can also be used as a command-line tool to retrieve information directly to your terminal or output files.
+g2papi can also be used as a command-line tool to retrieve information directly to your terminal or output files.
 
-Getting Gene Transcript Map
+Getting Gene-Transcript-Protein Isoform-Structure Map
 
 ```
-g2p3d get-gene-transcript-map --geneName BRCA1 --uniprotId P38398
+g2papi get-gene-transcript-protein-isoform-structure --geneName BRCA1 --uniprotId P38398
 ```
 
 Getting Protein Features
 
 ```
-g2p3d get-protein-features --geneName BRCA1 --uniprotId P38398
+g2papi get-protein-features --geneName BRCA1 --uniprotId P38398
 ```
 
 The above commands will print the results to your terminal. If you wish to save the output to a file, you can redirect the output:
 
 ```
-g2p3d get-gene-transcript-map --geneName BRCA1 --uniprotId P38398 > transcript_map.tsv
-g2p3d get-protein-features --geneName BRCA1 --uniprotId P38398 > protein_features.tsv
+g2papi get-gene-transcript-protein-isoform-structure --geneName BRCA1 --uniprotId P38398 > transcript_map.tsv
+g2papi get-protein-features --geneName BRCA1 --uniprotId P38398 > protein_features.tsv
 ```
 

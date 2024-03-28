@@ -3,11 +3,11 @@ from .api import get_gene_transcript_map, get_protein_features
 import sys
 
 def main():
-    parser = argparse.ArgumentParser(description='G2P3D Command Line Interface')
+    parser = argparse.ArgumentParser(description='G2P API Command Line Interface')
     subparsers = parser.add_subparsers(dest='command')
 
     # Sub-command for gene-transcript-map
-    gt_parser = subparsers.add_parser('get-gene-transcript-map', help='Get gene transcript map')
+    gt_parser = subparsers.add_parser('get-gene-transcript-protein-isoform-structure', help='Get gene-transcript-protein isoform-structure map')
     gt_parser.add_argument('--geneName', required=True, help='Gene name')
     gt_parser.add_argument('--uniprotId', required=True, help='Uniprot ID')
 
@@ -18,7 +18,7 @@ def main():
 
     args = parser.parse_args()
 
-    if args.command == 'get-gene-transcript-map':
+    if args.command == 'get-gene-transcript-protein-isoform-structure':
         print(get_gene_transcript_map(args.geneName, args.uniprotId).to_csv(index=False))
     elif args.command == 'get-protein-features':
         print(get_protein_features(args.geneName, args.uniprotId).to_csv(index=False))

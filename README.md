@@ -26,7 +26,7 @@ This will install the `g2papi` package and its dependencies.
 
 You can import `g2papi` in your Python scripts to retrieve data from the G2P API directly. Here are some examples:
 
-Getting Gene Transcript Map
+Calling the G2P3D API to get the Gene-Transcript-Protein Isoform-Structure mapping
 
 ```python
 import g2papi
@@ -79,7 +79,7 @@ Output:
 ### As a Command-Line Tool
 g2papi can also be used as a command-line tool to retrieve information directly to your terminal or output files.
 
-Getting Gene-Transcript-Protein Isoform-Structure Map
+Getting Gene-Transcript-Protein Isoform-Structure Map with the G2P3D API
 
 ```
 g2papi get-gene-transcript-protein-isoform-structure --geneName BRCA1 --uniprotId P38398
@@ -97,4 +97,9 @@ The above commands will print the results to your terminal. If you wish to save 
 g2papi get-gene-transcript-protein-isoform-structure --geneName BRCA1 --uniprotId P38398 > transcript_map.tsv
 g2papi get-protein-features --geneName BRCA1 --uniprotId P38398 > protein_features.tsv
 ```
+
+## Citation
+If you use g2papi in your research, please cite:
+
+Kwon S, et al. Genomics 2 Proteins portal: A resource and discovery tool for linking genetic screening outputs to protein sequences and structures. doi: https://doi.org/10.1101/2024.01.02.573913.
 

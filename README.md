@@ -103,3 +103,10 @@ If you use g2papi in your research, please cite:
 
 Kwon S, et al. Genomics 2 Proteins portal: A resource and discovery tool for linking genetic screening outputs to protein sequences and structures. doi: https://doi.org/10.1101/2024.01.02.573913.
 
+## System Requirements
+The package was developed and tested on Python 3.9.12, and is designed to run on a computer that can run Python3 and has a working internet connection. The library was installed and tested on Ubuntu Linux 20.04 and Mac OSX Ventura, 13.5.1. 
+
+## Set up time (total time to set up and run: approximately 5 minutes)
+Installation and execution steps run in approximately real time. 3 installation steps each run in less than 5 seconds, and execution time takes less than 5 seconds for genes with under 2000 residues.
+
+

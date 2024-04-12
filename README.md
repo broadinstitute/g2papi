@@ -2,6 +2,13 @@
 
 `g2papi` is a Python library and command-line tool designed to interact with the G2P API provided by the Broad Institute. It allows users to retrieve mappings between protein isoforms, transcripts, and PDB structures for a gene, as well as protein feature tables for a gene.
 
+
+## Citation
+If you use g2papi in your research, please cite:
+
+Kwon S, et al. Genomics 2 Proteins portal: A resource and discovery tool for linking genetic screening outputs to protein sequences and structures. doi: https://doi.org/10.1101/2024.01.02.573913.
+
+
 ## Installation
 
 First, ensure that you have Python and pip installed on your system. Then, clone this repository to your local machine and navigate into the cloned directory:
@@ -97,11 +104,6 @@ The above commands will print the results to your terminal. If you wish to save 
 g2papi get-gene-transcript-protein-isoform-structure-map --geneName BRCA1 --uniprotId P38398 > transcript_map.tsv
 g2papi get-protein-features --geneName BRCA1 --uniprotId P38398 > protein_features.tsv
 ```
-
-## Citation
-If you use g2papi in your research, please cite:
-
-Kwon S, et al. Genomics 2 Proteins portal: A resource and discovery tool for linking genetic screening outputs to protein sequences and structures. doi: https://doi.org/10.1101/2024.01.02.573913.
 
 ## System Requirements
 The package was developed and tested on Python 3.9.12, and is designed to run on a computer that can run Python3 and has a working internet connection. The library was installed and tested on Ubuntu Linux 20.04 and Mac OSX Ventura, 13.5.1. 

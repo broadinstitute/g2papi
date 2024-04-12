@@ -11,7 +11,17 @@ Kwon S, et al. Genomics 2 Proteins portal: A resource and discovery tool for lin
 
 ## Installation
 
-First, ensure that you have Python and pip installed on your system. Then, clone this repository to your local machine and navigate into the cloned directory:
+First, ensure that you have Python and pip installed on your system.
+
+### Installing with PyPi
+
+```
+pip install g2papi
+```
+
+### Installing from source
+
+Clone this repository to your local machine and navigate into the cloned directory:
 
 ```
 git clone https://github.com/broadinstitute/g2papi.git
@@ -23,7 +33,6 @@ To install `g2papi`, run:
 ```
 pip install .
 ```
-
 
 This will install the `g2papi` package and its dependencies.
 

@@ -5,11 +5,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='g2papi',
-    version='1.0.0',
+    version='1.0.2',
     author='Jordan Safer',
     author_email='genomics2proteins@gmail.com',
-    description='A python client and CLI for easy access to the Genomics to Proteins portal APIs.',
+    description='A python client and CLI for easy access to G2P portal APIs',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[
         'requests',

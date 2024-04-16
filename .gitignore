@@ -1,2 +1,7 @@
 
 g2papi/__pycache__/
+
+
+g2papi.egg-info/
+build/
+dist/

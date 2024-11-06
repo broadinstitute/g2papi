@@ -1,0 +1,111 @@
+"id","UniProt","Symbol","Name","Target Development Level","IDG Family","Novelty"
+192,"P61604","HSPE1","10 kDa heat shock protein, mitochondrial","Tbio","Other",0.00074376
+908,"Q58FF3","HSP90B2P","Putative endoplasmin-like protein","Tdark","Other",
+909,"P14625","HSP90B1","Endoplasmin","Tchem","Other",0.00135881
+1824,"Q9HAV7","GRPEL1","GrpE protein homolog 1, mitochondrial","Tbio","Other",0.00185346
+1825,"Q8TAA5","GRPEL2","GrpE protein homolog 2, mitochondrial","Tbio","Other",0.52660174
+2205,"Q5SW79","CEP170","Centrosomal protein of 170 kDa","Tbio","Other",0.05342931
+2378,"Q16543","CDC37","Hsp90 co-chaperone Cdc37","Tbio","Other",0.03730196
+2448,"Q96JN2","CCDC136","Coiled-coil domain-containing protein 136","Tbio","Other",0.09279967
+2836,"Q7L3B6","CDC37L1","Hsp90 co-chaperone Cdc37-like 1","Tbio","Other",0.11043692
+3161,"Q14203","DCTN1","Dynactin subunit 1","Tbio","Other",0.00494896
+4894,"Q5JU69","TOR2A","Torsin-2A","Tbio","Other",0.36991346
+4897,"Q9H497","TOR3A","Torsin-3A","Tbio","Other",0.11588309
+5002,"Q12931","TRAP1","Heat shock protein 75 kDa, mitochondrial","Tchem","Other",0.03344189
+5110,"O14656","TOR1A","Torsin-1A","Tbio","Other",0.00056274
+5111,"O14657","TOR1B","Torsin-1B","Tbio","Other",0.00611826
+5429,"O14530","TXNDC9","Thioredoxin domain-containing protein 9","Tbio","Other",0.00309772
+5497,"P07900","HSP90AA1","Heat shock protein HSP 90-alpha","Tchem","Other",0.00016774
+5631,"P83105","HTRA4","Serine protease HTRA4","Tbio","Enzyme",0.09298487
+5927,"Q9UIM3","FKBPL","FK506-binding protein-like","Tbio","Other",0.02054842
+5953,"Q58FF6","HSP90AB4P","Putative heat shock protein HSP 90-beta 4","Tdark","Other",
+6076,"Q58FG1","HSP90AA4P","Putative heat shock protein HSP 90-alpha A4","Tdark","Other",
+6078,"P08238","HSP90AB1","Heat shock protein HSP 90-beta","Tchem","Other",0.00907961
+6138,"Q58FF7","HSP90AB3P","Putative heat shock protein HSP 90-beta-3","Tdark","Other",
+6229,"Q58FF8","HSP90AB2P","Putative heat shock protein HSP 90-beta 2","Tdark","Other",
+6352,"O14976","GAK","Cyclin-G-associated kinase","Tchem","Kinase",0.00731928
+6380,"P62942","FKBP1A","Peptidyl-prolyl cis-trans isomerase FKBP1A","Tclin","Enzyme",0.00116174
+6381,"P68106","FKBP1B","Peptidyl-prolyl cis-trans isomerase FKBP1B","Tchem","Enzyme",0.00541222
+6467,"Q13451","FKBP5","Peptidyl-prolyl cis-trans isomerase FKBP5","Tchem","Enzyme",0.00214511
+6495,"Q02790","FKBP4","Peptidyl-prolyl cis-trans isomerase FKBP4","Tchem","Enzyme",0.0023525
+6698,"Q14568","HSP90AA2P","Heat shock protein HSP 90-alpha A2","Tdark","Other",
+6741,"P83110","HTRA3","Serine protease HTRA3","Tbio","Enzyme",0.09721543
+6841,"Q92743","HTRA1","Serine protease HTRA1","Tchem","Enzyme",0.0016879
+7531,"Q01534","TSPY1","Testis-specific Y-encoded protein 1","Tbio","Other",
+7532,"A6NKD2","TSPY2","Testis-specific Y-encoded protein 2","Tdark","Other",
+7533,"P0CV98","TSPY3","Testis-specific Y-encoded protein 3","Tdark","Other",
+7534,"P0CV99","TSPY4","Testis-specific Y-encoded protein 4","Tdark","Other",
+7540,"Q8N831","TSPYL6","Testis-specific Y-encoded-like protein 6","Tdark","Other",0.68478376
+7586,"P0CW00","TSPY8","Testis-specific Y-encoded protein 8","Tdark","Other",
+7590,"Q9H0U9","TSPYL1","Testis-specific Y-encoded-like protein 1","Tbio","Other",0.06381144
+7602,"Q8N5M4","TTC9C","Tetratricopeptide repeat protein 9C","Tdark","Other",0.85949913
+8010,"Q9NXH8","TOR4A","Torsin-4A","Tdark","Other",1.44737036
+8160,"P0DME0","SETSIP","Protein SETSIP","Tdark","Other",0.33882895
+8431,"Q9UGP8","SEC63","Translocation protein SEC63 homolog","Tbio","Other",0.00974614
+8527,"Q9Y6X1","SERP1","Stress-associated endoplasmic reticulum protein 1","Tbio","Other",0.0252352
+8528,"Q8N6R1","SERP2","Stress-associated endoplasmic reticulum protein 2","Tdark","Other",0.11483187
+8562,"Q9Y228","TRAF3IP3","TRAF3-interacting JNK-activating modulator","Tbio","Other",0.12180834
+8620,"P37840","SNCA","Alpha-synuclein","Tchem","Other",0.00012042
+8758,"Q9BTW9","TBCD","Tubulin-specific chaperone D","Tbio","Other",0.01161221
+8759,"Q5QJ74","TBCEL","Tubulin-specific chaperone cofactor E-like protein","Tdark","Other",0.71768573
+8782,"Q15813","TBCE","Tubulin-specific chaperone E","Tbio","Other",0.01058281
+8793,"P48643","CCT5","T-complex protein 1 subunit epsilon","Tbio","Other",0.02369118
+8795,"P40227","CCT6A","T-complex protein 1 subunit zeta","Tbio","Other",0.02368046
+8840,"Q99426","TBCB","Tubulin-folding cofactor B","Tbio","Other",0.02777322
+8872,"Q96SF2","CCT8L2","T-complex protein 1 subunit theta-like 2","Tdark","Other",0.8000417
+8897,"Q92526","CCT6B","T-complex protein 1 subunit zeta-2","Tbio","Other",0.28933315
+8922,"P50990","CCT8","T-complex protein 1 subunit theta","Tbio","Other",0.03168289
+8944,"O75347","TBCA","Tubulin-specific chaperone A","Tbio","Other",0.07587729
+8945,"P17987","TCP1","T-complex protein 1 subunit alpha","Tbio","Other",0.00395241
+8972,"Q15814","TBCC","Tubulin-specific chaperone C","Tbio","Other",0.07928844
+9394,"Q01105","SET","Protein SET","Tbio","Other",0.01012327
+9541,"Q14BN4","SLMAP","Sarcolemmal membrane-associated protein","Tbio","Other",0.03974856
+9609,"P0CW01","TSPY10","Testis-specific Y-encoded protein 10","Tdark","Other",
+9612,"Q9H2G4","TSPYL2","Testis-specific Y-encoded-like protein 2","Tbio","Other",0.03720016
+9614,"Q86VY4","TSPYL5","Testis-specific Y-encoded-like protein 5","Tbio","Other",0.07013974
+9623,"Q92623","TTC9","Tetratricopeptide repeat protein 9A","Tdark","Other",0.1679064
+9624,"Q8N6N2","TTC9B","Tetratricopeptide repeat protein 9B","Tdark","Other",0.25942345
+9625,"P53804","TTC3","E3 ubiquitin-protein ligase TTC3","Tbio","Enzyme",0.03120223
+9723,"Q9H489","TSPY26P","Putative testis-specific Y-encoded-like protein 3","Tdark","Other",
+9725,"Q9UJ04","TSPYL4","Testis-specific Y-encoded-like protein 4","Tdark","Other",0.4538252
+10550,"P61758","VBP1","Prefoldin subunit 3","Tbio","Other",0.0428293
+10567,"Q9UHV9","PFDN2","Prefoldin subunit 2","Tbio","Other",0.08537716
+10822,"Q99471","PFDN5","Prefoldin subunit 5","Tbio","Other",0.07673574
+12077,"P33908","MAN1A1","Mannosyl-oligosaccharide 1,2-alpha-mannosidase IA","Tbio","Enzyme",0.00645679
+12079,"Q9UKM7","MAN1B1","Endoplasmic reticulum mannosyl-oligosaccharide 1,2-alpha-mannosidase","Tchem","Enzyme",0.01348112
+12233,"O60476","MAN1A2","Mannosyl-oligosaccharide 1,2-alpha-mannosidase IB","Tbio","Enzyme",0.15637608
+12428,"Q9NR34","MAN1C1","Mannosyl-oligosaccharide 1,2-alpha-mannosidase IC","Tbio","Enzyme",0.13017812
+13177,"P27824","CANX","Calnexin","Tbio","Other",0.00087002
+13201,"Q9Y4F5","CEP170B","Centrosomal protein of 170 kDa protein B","Tdark","Other",0.30498676
+13387,"Q96L14","CEP170P1","Cep170-like protein","Tdark","Other",
+13734,"O75061","DNAJC6","Putative tyrosine-protein phosphatase auxilin","Tbio","Enzyme",0.01359669
+13918,"Q5TC12","ATPAF1","ATP synthase mitochondrial F1 complex assembly factor 1","Tbio","Enzyme",0.04032579
+15569,"P31946","YWHAB","14-3-3 protein beta/alpha","Tbio","Other",0.00614093
+15614,"P63104","YWHAZ","14-3-3 protein zeta/delta","Tchem","Other",0.00210582
+15749,"Q9NZD4","AHSP","Alpha-hemoglobin-stabilizing protein","Tbio","Other",0.00996928
+15824,"O00170","AIP","AH receptor-interacting protein","Tbio","Other",0.00869592
+15877,"Q9NZN9","AIPL1","Aryl-hydrocarbon-interacting protein-like 1","Tbio","Other",0.01436649
+16107,"P61981","YWHAG","14-3-3 protein gamma","Tchem","Other",0.00845572
+16121,"P31947","SFN","14-3-3 protein sigma","Tbio","Other",0.00340233
+16139,"Q04917","YWHAH","14-3-3 protein eta","Tbio","Other",0.01000071
+16148,"P62258","YWHAE","14-3-3 protein epsilon","Tbio","Other",0.00431876
+16204,"P27348","YWHAQ","14-3-3 protein theta","Tbio","Other",0.00234496
+16463,"Q16143","SNCB","Beta-synuclein","Tbio","Other",0.00743454
+16464,"O76070","SNCG","Gamma-synuclein","Tbio","Other",0.00446367
+16716,"A6NM43","CCT8L1P","Putative T-complex protein 1 subunit theta-like 1","Tdark","Other",
+16720,"P78371","CCT2","T-complex protein 1 subunit beta","Tbio","Other",0.01967139
+16722,"P50991","CCT4","T-complex protein 1 subunit delta","Tbio","Other",0.01176123
+16723,"Q99832","CCT7","T-complex protein 1 subunit eta","Tbio","Other",0.02247038
+16761,"P49368","CCT3","T-complex protein 1 subunit gamma","Tbio","Other",0.01642521
+16768,"Q15185","PTGES3","Prostaglandin E synthase 3","Tbio","Enzyme",0.0082783
+16843,"Q8N3C7","CLIP4","CAP-Gly domain-containing linker protein 4","Tdark","Other",0.95653865
+16911,"P30622","CLIP1","CAP-Gly domain-containing linker protein 1","Tbio","Other",0.00399891
+16912,"Q9UDT6","CLIP2","CAP-Gly domain-containing linker protein 2","Tbio","Other",0.0326657
+16913,"Q96DZ5","CLIP3","CAP-Gly domain-containing linker protein 3","Tbio","Other",0.08151142
+16932,"O76031","CLPX","ATP-dependent Clp protease ATP-binding subunit clpX-like, mitochondrial","Tbio","Enzyme",0.00254331
+17023,"O14967","CLGN","Calmegin","Tbio","Other",0.06204915
+18308,"E9PB15","PTGES3L","Putative protein PTGES3L","Tdark","Other",3.59155074
+18853,"Q96NT1","NAP1L5","Nucleosome assembly protein 1-like 5","Tbio","Other",0.10378595
+18861,"Q86SE8","NPM2","Nucleoplasmin-2","Tbio","Other",0.03674672
+19167,"P06748","NPM1","Nucleophosmin","Tbio","Other",0.0005485
+20048,"O75607","NPM3","Nucleoplasmin-3","Tbio","Other",0.11783423

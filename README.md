@@ -1,14 +1,32 @@
 # g2papi
+[![DOI](https://img.shields.io/badge/DOI-10.1038/s41592--024--02409--0-blue.svg)](https://doi.org/10.1038/s41592-024-02409-0)
+[![PubMed](https://img.shields.io/badge/PubMed-39294369-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/39294369/)
 
 `g2papi` is a Python library and command-line tool designed to interact with the G2P API provided by the Broad Institute. It allows users to retrieve mappings between protein isoforms, transcripts, and PDB structures for a gene, as well as protein feature tables for a gene.
 
 Access the swagger definition and endpoints at: https://g2p.broadinstitute.org/api-docs/
 
-## Citation
-If you use g2papi in your research, please cite:
+## How to cite
+If you use Genomics 2 Protein portal, please cite [the paper](https://www.nature.com/articles/s41592-024-02409-0):
 
-Kwon S, et al. Genomics 2 Proteins portal: A resource and discovery tool for linking genetic screening outputs to protein sequences and structures. doi: https://doi.org/10.1101/2024.01.02.573913.
+- *Kwon, S., Safer, J., Nguyen, D.T. et al. Genomics 2 Proteins portal: a resource and discovery tool for linking genetic screening outputs to protein sequences and structures. Nat Methods 21, 1947–1957 (2024), [https://doi.org/10.1101/2024.01.02.573913](https://doi.org/10.1101/2024.01.02.573913)*
 
+or, if you prefer the `BibTeX` format:
+
+```
+@article{kwon_genomics_2024,
+	author = {Kwon, Seulki and Safer, Jordan and Nguyen, Duyen T. and Hoksza, David and May, Patrick and Arbesfeld, Jeremy A. and Rubin, Alan F. and Campbell, Arthur J. and Burgin, Alex and Iqbal, Sumaiya},
+	title = {Genomics 2 Proteins portal: a resource and discovery tool for linking genetic screening outputs to protein sequences and structures},
+	journal = {Nature Methods},
+	volume = {21},
+	pages = {1947--1957},
+	year = {2024},
+	month = oct,
+	issn = {1548-7105},
+	doi = {10.1038/s41592-024-02409-0},
+	url = {https://doi.org/10.1038/s41592-024-02409-0},
+}
+```
 
 ## Installation
 

@@ -5,3 +5,6 @@ g2papi/__pycache__/
 g2papi.egg-info/
 build/
 dist/
+
+examples/ex3_large_scale_variant_characterization/variant_summary.txt.gz
+examples/ex3_large_scale_variant_characterization/variant_summary.txt

@@ -110,6 +110,37 @@ Output:
 4          5  A                            61.73                     -
 ```
 
+Getting Isoform Alignment
+
+```python
+import g2papi
+
+# Get isoform sequence alignment between canonical and alternative isoforms
+isoform_alignment = g2papi.get_isoform_sequence_alignment(
+    'LDLR',      # Gene name
+    'P01130-1',   # Canonical isoform UniProt ID
+    'P01130-2'    # Alternative isoform UniProt ID
+)
+residueId	AA	Aligned residueId (P01130-2)	Aligned AA (P01130-2)
+1	M	1	M
+2	G	2	G
+3	P	3	P
+4	W	4	W
+5	G	5	G
+# Display the first few rows
+print(isoform_alignment.head())
+```
+
+Output:
+
+```
+   residueId AA Aligned residueId (P01130-2) Aligned AA (P01130-2)
+1                   M           1                   M
+2                   G           2                   G
+3                   P           3                   P
+4                   W           4                   W
+5                   G           5                   G
+```
 
 ### As a Command-Line Tool
 g2papi can also be used as a command-line tool to retrieve information directly to your terminal or output files.

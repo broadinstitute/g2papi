@@ -121,12 +121,7 @@ isoform_alignment = g2papi.get_isoform_sequence_alignment(
     'P01130-1',   # Canonical isoform UniProt ID
     'P01130-2'    # Alternative isoform UniProt ID
 )
-residueId	AA	Aligned residueId (P01130-2)	Aligned AA (P01130-2)
-1	M	1	M
-2	G	2	G
-3	P	3	P
-4	W	4	W
-5	G	5	G
+
 # Display the first few rows
 print(isoform_alignment.head())
 ```

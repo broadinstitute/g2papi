@@ -2,7 +2,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1038/s41592--024--02409--0-blue.svg)](https://doi.org/10.1038/s41592-024-02409-0)
 [![PubMed](https://img.shields.io/badge/PubMed-39294369-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/39294369/)
 
-`g2papi` is a Python library and command-line tool designed to interact with the [Genomics 2 Protein Portal](https://g2p.broadinstitute.org) (G2P) API provided by the Broad Institute. It allows users to retrieve mappings between protein isoforms, transcripts, and PDB structures for a gene, as well as protein feature tables for a gene.
+`g2papi` is a Python library and command-line tool designed to interact with the [Genomics 2 Protein Portal](https://g2p.broadinstitute.org) (G2P) API provided by the Broad Institute of MIT and Harvard. It allows users to retrieve mappings between protein isoforms, transcripts, and PDB structures for a gene, as well as protein feature tables for a gene.
 
 Access the swagger definition and endpoints at: https://g2p.broadinstitute.org/api-docs/
 

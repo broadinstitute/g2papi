@@ -63,7 +63,9 @@ This will install the `g2papi` package and its dependencies.
 
 You can import `g2papi` in your Python scripts to retrieve data from the G2P API directly. Here are some examples:
 
-Calling the G2P3D API to get the Gene-Transcript-Protein Isoform-Structure mapping
+#### Gene-Transcript-Protein Isoform-Structure Mapping
+
+> **Swagger endpoint:** `GET /api/gene/{geneName}/protein/{uniprotId}/gene-transcript-protein-isoform-structure-map` — [Try it on Swagger UI](https://g2p.broadinstitute.org/api-docs/)
 
 ```python
 import g2papi
@@ -85,7 +87,9 @@ Output:
 4     P38398-1(*)    ENST00000357654(*)   NM_001407641
 ```
 
-Getting Protein Features
+#### Protein Features
+
+> **Swagger endpoint:** `GET /api/gene/{geneName}/protein/{uniprotId}/protein-features` — [Try it on Swagger UI](https://g2p.broadinstitute.org/api-docs/)
 
 ```python
 import g2papi
@@ -112,7 +116,9 @@ Output:
 4          5  A                            61.73                     -
 ```
 
-Getting Isoform Alignment
+#### Isoform Sequence Alignment
+
+> **Swagger endpoint:** `GET /api/gene/{geneName}/protein/{canonicalIsoformUniprotId}/{alignmentIsoformUniprotId}/alignment` — [Try it on Swagger UI](https://g2p.broadinstitute.org/api-docs/)
 
 ```python
 import g2papi
@@ -142,13 +148,13 @@ Output:
 ### As a Command-Line Tool
 g2papi can also be used as a command-line tool to retrieve information directly to your terminal or output files.
 
-Getting Gene-Transcript-Protein Isoform-Structure Map with the G2P3D API
+#### Gene-Transcript-Protein Isoform-Structure Map
 
 ```
 g2papi get-gene-transcript-protein-isoform-structure-map --geneName BRCA1 --uniprotId P38398
 ```
 
-Getting Protein Features
+#### Protein Features
 
 ```
 g2papi get-protein-features --geneName BRCA1 --uniprotId P38398

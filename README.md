@@ -88,6 +88,7 @@ Output:
 ```
 
 #### Protein Features
+Protein Feature API returns a TSV file with amino acid residues annotated with protein features. See the [glossary](https://github.com/broadinstitute/g2papi/blob/main/g2papi_feature_glossary.md) for more information on each feature column. 
 
 > **Swagger endpoint:** `GET /api/gene/{geneName}/protein/{uniprotId}/protein-features` — [Try it on Swagger UI](https://g2p.broadinstitute.org/api-docs/)
 
